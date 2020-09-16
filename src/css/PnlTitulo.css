@@ -1,0 +1,7 @@
+.pnlTitulo {
+  background: linear-gradient(black, gray, rgb(230, 230, 230), gray, black);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}

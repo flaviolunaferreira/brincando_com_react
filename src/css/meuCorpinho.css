@@ -1,0 +1,12 @@
+.meuCorpinho {
+  background-color: rgb(212, 209, 209);
+  margin: 5px;
+  padding: 0;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ver o alinhamento dos componentes */

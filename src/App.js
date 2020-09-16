@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/meuCorpinho.css';
+import PnlTitulo from './Components/PnlTitulo.js';
+import PnlOpcoes from './Components/PnlOpcoes.js';
+import AreaDeTrabalho from './Components/AreaDeTrabalho.js';
+import PnlRodape from './Components/PnlRodape.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='meuCorpinho'>
+      <PnlTitulo />
+      <div className='corpo'>
+        <PnlOpcoes />
+        <AreaDeTrabalho />
+      </div>
+      <PnlRodape />
     </div>
   );
 }
