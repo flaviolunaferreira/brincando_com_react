@@ -2,6 +2,7 @@
   background-color: rgb(212, 209, 209);
   margin: 5px;
   padding: 0;
+  overflow: hidden;
 }
 
 .corpo {

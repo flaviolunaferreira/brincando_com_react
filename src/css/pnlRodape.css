@@ -1,5 +1,6 @@
 .pnlRodape {
-  background: linear-gradient(black, gray, rgb(230, 230, 230), gray, black);
+  background: linear-gradient(rgb(60, 60, 60), gray, rgb(230, 230, 230), gray, rgb(60, 60, 60));
+  border: 2px groove gray;
   height: 40px;
   width: 100%;
   display: flex;

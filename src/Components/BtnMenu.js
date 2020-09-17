@@ -1,9 +1,13 @@
-import React, { component } from 'react';
+import React, { Component } from 'react';
+import '../css/btnMenu.css';
 
-class BtnMenu extends Component {
-render() {
-  return (
-    
-  );
+class BtnOpcoes extends Component {
+  render() {
+    const nomeBtn = this.props.name;
+    return (
+    <button className='btnMenu'>{nomeBtn}</button>
+    );
+  }
 }
-}
+
+export default BtnOpcoes;

@@ -1,0 +1,21 @@
+.btnMenu {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 5px;
+  background: linear-gradient(rgb(60, 60, 60), gray, rgb(230, 230, 230), gray, rgb(60, 60, 60));
+  width: 145px;
+  height: 40px;
+  box-shadow: 1px 1px 5px white;
+  cursor: pointer;
+}
+
+.btnMenu:hover {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 5px;
+  background: linear-gradient(rgb(80, 80, 80), rgb(150, 150, 150), white, rgb(150, 150, 150), rgb(80, 80, 80));
+  width: 145px;
+  height: 40px;
+  box-shadow: 1px 1px 2px rgb(169, 250, 136);
+  cursor: pointer;
+}
